@@ -4,7 +4,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 const Home = ({ navigation }) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Welcome to the Eating Contest!</Text>
+            <Text style={styles.title}>Welcome to the Novel Writing Contest!</Text>
             <Button title="Register Now" onPress={() => navigation.navigate('Register')} />
         </View>
     );
